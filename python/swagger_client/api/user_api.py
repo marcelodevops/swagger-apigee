@@ -129,7 +129,7 @@ class UserApi(object):
             collection_formats=collection_formats)
 
     def create_users_with_array_input(self, body, **kwargs):  # noqa: E501
-        """Creates list of users with given input array  # noqa: E501
+        """Creates a list of users with given input array  # noqa: E501
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please pass async_req=True
@@ -150,7 +150,7 @@ class UserApi(object):
             return data
 
     def create_users_with_array_input_with_http_info(self, body, **kwargs):  # noqa: E501
-        """Creates list of users with given input array  # noqa: E501
+        """Creates a list of users with given input array  # noqa: E501
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please pass async_req=True

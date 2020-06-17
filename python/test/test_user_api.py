@@ -39,7 +39,7 @@ class TestUserApi(unittest.TestCase):
     def test_create_users_with_array_input(self):
         """Test case for create_users_with_array_input
 
-        Creates list of users with given input array  # noqa: E501
+        Creates a list of users with given input array  # noqa: E501
         """
         pass
 

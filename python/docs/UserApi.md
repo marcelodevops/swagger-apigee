@@ -5,7 +5,7 @@ All URIs are relative to *https://virtserver.swaggerhub.com/Full2Cloud/myAPI/1.0
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_user**](UserApi.md#create_user) | **POST** /user | Create user
-[**create_users_with_array_input**](UserApi.md#create_users_with_array_input) | **POST** /user/createWithArray | Creates list of users with given input array
+[**create_users_with_array_input**](UserApi.md#create_users_with_array_input) | **POST** /user/createWithArray | Creates a list of users with given input array
 [**create_users_with_list_input**](UserApi.md#create_users_with_list_input) | **POST** /user/createWithList | Creates list of users with given input array
 [**delete_user**](UserApi.md#delete_user) | **DELETE** /user/{username} | Delete user
 [**get_user_by_name**](UserApi.md#get_user_by_name) | **GET** /user/{username} | Get user by user name
@@ -64,7 +64,7 @@ No authorization required
 # **create_users_with_array_input**
 > create_users_with_array_input(body)
 
-Creates list of users with given input array
+Creates a list of users with given input array
 
 ### Example
 ```python
@@ -79,7 +79,7 @@ api_instance = swagger_client.UserApi()
 body = [swagger_client.User()] # list[User] | List of user object
 
 try:
-    # Creates list of users with given input array
+    # Creates a list of users with given input array
     api_instance.create_users_with_array_input(body)
 except ApiException as e:
     print("Exception when calling UserApi->create_users_with_array_input: %s\n" % e)
